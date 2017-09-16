@@ -12,4 +12,6 @@ RUN npm install --production --no-progress
 # Copy application files
 COPY ./build .
 
+EXPOSE 80
+
 CMD [ "node", "server.js" ]
