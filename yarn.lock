@@ -3568,10 +3568,10 @@ eslint-config-airbnb@15.1.0:
   dependencies:
     eslint-config-airbnb-base "^11.3.0"
 
-eslint-config-prettier@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-2.3.0.tgz"
-  integrity sha1-t1seq+oMi5ezRANkfuJds0m52KA=
+eslint-config-prettier@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-2.10.0.tgz"
+  integrity sha512-Mhl90VLucfBuhmcWBgbUNtgBiK955iCDK1+aHAz7QfDQF6wuzWZ6JjihZ3ejJoGlJWIuko7xLqNm8BA5uenKhA==
   dependencies:
     get-stdin "^5.0.1"
 
