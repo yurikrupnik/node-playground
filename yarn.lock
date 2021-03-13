@@ -3602,10 +3602,10 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-css-modules@2.7.4:
-  version "2.7.4"
-  resolved "https://registry.npmjs.org/eslint-plugin-css-modules/-/eslint-plugin-css-modules-2.7.4.tgz"
-  integrity sha1-8GazoKG0FKTNCQQfitg/HZqBw+Y=
+eslint-plugin-css-modules@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-css-modules/-/eslint-plugin-css-modules-2.11.0.tgz"
+  integrity sha512-CLvQvJOMlCywZzaI4HVu7QH/ltgNXvCg7giJGiE+sA9wh5zQ+AqTgftAzrERV22wHe1p688wrU/Zwxt1Ry922w==
   dependencies:
     gonzales-pe "^4.0.3"
     lodash "^4.17.2"
