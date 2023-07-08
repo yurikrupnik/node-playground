@@ -111,7 +111,7 @@
     "react-test-renderer": "15.6.1",
     "rimraf": "2.6.1",
     "sinon": "3.2.1",
-    "stylelint": "8.0.0",
+    "stylelint": "15.10.1",
     "stylelint-config-standard": "17.0.0",
     "stylelint-order": "0.6.0",
     "svg-url-loader": "2.1.1",
