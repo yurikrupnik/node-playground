@@ -1613,11 +1613,6 @@ base64id@0.1.0:
   resolved "https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz"
   integrity sha1-As4P3u4M709ACA4ec+g08LG/zj8=
 
-base64url@2.0.0, base64url@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/base64url/-/base64url-2.0.0.tgz"
-  integrity sha1-6sFuA+oUOO/5Qj1puqNiYu0fcLs=
-
 base@^0.11.1:
   version "0.11.2"
   resolved "https://registry.npmjs.org/base/-/base-0.11.2.tgz"
@@ -3266,14 +3261,6 @@ ecdsa-sig-formatter@1.0.11:
   resolved "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz"
   integrity sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==
   dependencies:
-    safe-buffer "^5.0.1"
-
-ecdsa-sig-formatter@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.9.tgz"
-  integrity sha1-S8kmJ07Dtau1AW5+HWCSGsJisqE=
-  dependencies:
-    base64url "^2.0.0"
     safe-buffer "^5.0.1"
 
 ee-first@1.1.1:
@@ -5595,11 +5582,6 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
-isemail@1.x.x:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/isemail/-/isemail-1.2.0.tgz"
-  integrity sha1-vgPfjMPineTSxd9lASY/H6RZXpo=
-
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
@@ -5961,16 +5943,6 @@ jest@20.0.4:
   dependencies:
     jest-cli "^20.0.4"
 
-joi@^6.10.1:
-  version "6.10.1"
-  resolved "https://registry.npmjs.org/joi/-/joi-6.10.1.tgz"
-  integrity sha1-TVDDGAeRIgAP5fFq8f+OGRe3fgY=
-  dependencies:
-    hoek "2.x.x"
-    isemail "1.x.x"
-    moment "2.x.x"
-    topo "1.x.x"
-
 js-base64@^2.1.9:
   version "2.6.4"
   resolved "https://registry.npmjs.org/js-base64/-/js-base64-2.6.4.tgz"
@@ -6128,16 +6100,15 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
-jsonwebtoken@7.4.3:
-  version "7.4.3"
-  resolved "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-7.4.3.tgz"
-  integrity sha1-d/UCHeBYtgWheD+hKD6ZgS5kVjg=
+jsonwebtoken@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-9.0.0.tgz#d0faf9ba1cc3a56255fe49c0961a67e520c1926d"
+  integrity sha512-tuGfYXxkQGDPnLJ7SibiQgVgeDgfbPq2k2ICcbgqW8WxWLBAxKQM/ZCu/IT8SOSwmaYl4dpTFCW5xZv7YbbWUw==
   dependencies:
-    joi "^6.10.1"
-    jws "^3.1.4"
-    lodash.once "^4.0.0"
-    ms "^2.0.0"
-    xtend "^4.0.1"
+    jws "^3.2.2"
+    lodash "^4.17.21"
+    ms "^2.1.1"
+    semver "^7.3.8"
 
 jsonwebtoken@^8.1.0:
   version "8.5.1"
@@ -6182,16 +6153,6 @@ just-extend@^1.1.22:
   resolved "https://registry.npmjs.org/just-extend/-/just-extend-1.1.22.tgz"
   integrity sha1-MzCvdWyralQnAMZLLk5KoGLVL/8=
 
-jwa@^1.1.4:
-  version "1.1.5"
-  resolved "https://registry.npmjs.org/jwa/-/jwa-1.1.5.tgz"
-  integrity sha1-oFUs4CIHQs1S4VN3SjKQXDDnVuU=
-  dependencies:
-    base64url "2.0.0"
-    buffer-equal-constant-time "1.0.1"
-    ecdsa-sig-formatter "1.0.9"
-    safe-buffer "^5.0.1"
-
 jwa@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz"
@@ -6199,15 +6160,6 @@ jwa@^1.4.1:
   dependencies:
     buffer-equal-constant-time "1.0.1"
     ecdsa-sig-formatter "1.0.11"
-    safe-buffer "^5.0.1"
-
-jws@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.npmjs.org/jws/-/jws-3.1.4.tgz"
-  integrity sha1-+ei5M46KhHJ31kRLFGT2GIDgUKI=
-  dependencies:
-    base64url "^2.0.0"
-    jwa "^1.1.4"
     safe-buffer "^5.0.1"
 
 jws@^3.2.2:
@@ -6700,6 +6652,11 @@ lodash@^4.17.14, lodash@^4.17.19:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
+lodash@^4.17.21:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
+
 log-symbols@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/log-symbols/-/log-symbols-1.0.2.tgz"
@@ -7045,7 +7002,7 @@ moment-timezone@^0.5.14:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.x.x, "moment@>= 2.9.0":
+"moment@>= 2.9.0":
   version "2.18.1"
   resolved "https://registry.npmjs.org/moment/-/moment-2.18.1.tgz"
   integrity sha1-w2GT3Tzhwu7SrbfIAtu8d6gbHA8=
@@ -7075,7 +7032,7 @@ ms@1.0.0:
   resolved "https://registry.npmjs.org/ms/-/ms-1.0.0.tgz"
   integrity sha1-Wa3NIu3FQ/e1OBhi0xOHsfS8lHM=
 
-ms@2.0.0, ms@^2.0.0:
+ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
@@ -9448,6 +9405,11 @@ semver@^5.5.0, semver@^5.6.0:
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
+semver@^7.3.8:
+  version "7.8.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
+  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
+
 send@0.15.2:
   version "0.15.2"
   resolved "https://registry.npmjs.org/send/-/send-0.15.2.tgz"
@@ -10486,13 +10448,6 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.0.tgz"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
-
-topo@1.x.x:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/topo/-/topo-1.1.0.tgz"
-  integrity sha1-6ddRYV0buH3IZdsYL6HKCl71NtU=
-  dependencies:
-    hoek "2.x.x"
 
 toposort-class@^1.0.1:
   version "1.0.1"
