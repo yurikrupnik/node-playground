@@ -35,7 +35,7 @@
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "sequelize": "4.44.4",
-    "serialize-javascript": "3.1.0",
+    "serialize-javascript": "7.0.3",
     "source-map-support": "0.4.16",
     "sqlite3": "3.1.9",
     "universal-router": "3.2.0",
